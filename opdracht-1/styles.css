@@ -12,23 +12,31 @@
     height: 50px;
     flex-flow: row wrap;
     justify-content: right;
+    align-items: center;
 }
 
 .containYetAgain{
     display: flex;
     background-color: white;
-    height: 50px;
     flex-flow: row wrap;
     justify-content: right;
+    align-items: flex-start;
 }
 
 .logo{
     display: flex;
     background-color: white;
     justify-content: flex-start;
+    align-items: baseline;
 }
 
 .FinalContainer{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: row;
 }
